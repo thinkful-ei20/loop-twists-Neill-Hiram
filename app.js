@@ -17,3 +17,13 @@ function min(numbers) {
   }
   return minNum;
 }
+
+function average(numbers) {
+  numbers.length // 
+  let sum = 0;
+  numbers.forEach(function(num){
+    sum += num
+  })
+  return sum / numbers.length
+  
+}
